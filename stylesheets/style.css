@@ -1,0 +1,483 @@
+:root {
+    --clr-neon: #EFD31A;
+    --clr-bg: #393939;
+  }
+
+
+
+
+
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+canvas{
+    position: fixed;
+    top:50px;
+    left:0;
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    outline: none; border: none;
+}
+
+
+
+.navbar{
+    background-color: #393939 !important;
+    font-family: 'Varela Round', sans-serif;
+
+    font-size:medium;
+
+}
+
+
+
+
+.navbar div .navbar-brand{
+    text-shadow: 2px 2px 5px black;
+    z-index: 10;
+}
+
+.navbar  div div .monroeLink{
+    color: #E6FF50;
+    text-align: center;
+    font-size:large;
+    border-style:solid;
+    border-color: 
+    var(--clr-neon);
+   
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em #E6FF50;
+    box-shadow: inset 0 0 1em 0 var(--clr-neon), 0 0 1em 0 var(--clr-neon);
+    background-color: #393939;
+    border-radius: 10px;
+    font-family: 'M PLUS Rounded 1c', sans-serif !important;
+    
+}
+.navbar  div div .monroeLink:focus,
+.navbar  div div .monroeLink:hover{
+    color: var(--clr-bg) !important;
+    border-color: var(--clr-bg);
+    background-color: var(--clr-neon) !important;
+    text-shadow: none;
+    border-style:  none !important;
+    text-decoration: none !important;
+}
+
+.shopButton {
+    color: #E6FF50;
+    display: flex;
+flex-flow: column;
+justify-content: center;
+align-items: center;
+    text-decoration: none !important;
+    text-align: center;
+    font-size:x-large;
+    border-style:solid;
+    border-color: 
+    var(--clr-neon);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em #E6FF50;
+    box-shadow: inset 0 0 1em 0 var(--clr-neon), 0 0 1em 0 var(--clr-neon);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 60vh;
+    bottom: 0;
+    width: 200px; /* width of button */
+    height: 100px; 
+    background-color: #393939;
+    border-radius: 15px;
+    z-index: 10;/* height of button */
+
+
+
+    
+}
+
+.shopButton a p{
+    text-decoration: none !important;
+}
+
+.shopButton:hover,
+.shopButton:focus {
+  color: var(--clr-bg) !important;
+  border-color: var(--clr-bg);
+  background-color: var(--clr-neon);
+  text-shadow: none;
+ 
+  text-decoration: none !important;
+  
+}
+
+
+
+div.dropdown button#dropdownMenuButton{
+    
+    color: #E6FF50;
+    text-align: center;
+    font-size:x-large;
+    border-style:solid;
+    border-color: 
+    var(--clr-neon);
+    font-family: 'M PLUS Rounded 1c', sans-serif !important;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em #E6FF50;
+    box-shadow: inset 0 0 1em 0 var(--clr-neon), 0 0 1em 0 var(--clr-neon);
+    background-color: #393939;
+    border-radius: 10px;
+    
+
+}
+
+
+
+button#paymentButton{
+    margin-top: 5%;
+    color: #E6FF50;
+    text-align: center;
+    font-size:xx-large;
+    border-color: 
+    var(--clr-neon);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em #E6FF50;
+    box-shadow: inset 0 0 1em 0 var(--clr-neon), 0 0 1em 0 var(--clr-neon);
+    background-color: #393939;
+
+
+
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+        text-decoration: none !important;
+        text-align: center;
+        
+        border-style: ridge;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 30vh;
+        bottom: 0;
+        width: 400px; /* width of button */
+        height: 200px; 
+        
+        border-radius: 15px;
+        /* height of button */
+    
+}
+
+div.dropdown {
+    display: inline-block;
+    margin: 3%;
+}
+div.dropdownButtonArray {
+    width: 100%;
+    text-align: center;
+    min-height:1000px;
+}
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #393939;
+}
+
+
+
+
+.map-responsive{
+
+
+    
+    overflow:hidden;
+
+    
+
+    position:relative;
+
+    
+
+}
+
+.map-responsive iframe{
+
+   
+    display: flex;
+    top:15%;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    justify-content: center;
+    height:100%;
+    width:100%;
+    
+
+    position:relative;
+
+}
+
+
+div.map-responsive p{ 
+   text-align: center;
+   color: white;
+   font-family: 'M PLUS Rounded 1c', sans-serif;
+   text-shadow: 2px 2px 5px black;
+   padding-bottom:1%;
+}
+
+.reviews{
+    padding-top: 5%;
+    text-align: center;
+   color: white;
+   font-family: 'M PLUS Rounded 1c', sans-serif;
+   text-shadow: 2px 2px 5px black;
+    
+    width: 100%;
+    overflow:hidden;
+    
+   
+    
+    
+}
+
+.reviews .review{
+     
+   
+    top:15%;
+    border-radius: 1px;
+    border-style: solid ;
+    border-color: grey;
+}
+
+
+div.centered h1 {
+    color: white;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+div.centered section.cards div.card {
+    justify-content: center;
+}
+
+
+
+.constructionButton {
+    display: flex;
+flex-flow: column;
+justify-content: center;
+align-items: center;
+    text-decoration: none !important;
+    text-align: center;
+    font-size:x-large;
+    border-style: ridge;
+    border-color: 
+    white;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 30vh;
+    bottom: 0;
+    width: 400px; /* width of button */
+    height: 200px; 
+    background-color: #EFD31A;
+    color: white;
+    border-radius: 15px;
+    z-index: 10;/* height of button */
+
+
+
+    
+}
+
+
+
+
+
+.align-center {
+    text-align: center;
+}
+.align-center h1{
+ color: white ;
+}
+.hash-list {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px){
+    .hash-list.cols-3 > li:nth-last-child(-n+3) {
+        border-bottom: none;
+    }
+}
+@media (min-width: 768px){
+    .hash-list.cols-3 > li {
+        width: 100%;
+    }
+}
+.hash-list > li {
+    
+    list-style-type: none;
+   
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.hash-list > li > h5{
+    color: white;
+}
+.pad-30, .pad-30-all > * {
+    padding: 30px;
+}
+img {
+    border: 0;
+    padding-bottom: 2%;
+}
+.mgb-20, .mgb-20-all > * {
+    margin-bottom: 20px;
+}
+.wpx-100, .wpx-100-after:after {
+    width: 100px;
+}
+.img-round, .img-rel-round {
+    border-radius: 50%;
+}
+
+.align-center {
+    text-align: center;
+}
+[class*="line-b"] {
+    position: relative;
+    
+    border-color: #E6AF2A;
+}
+.fg-text-d, .fg-hov-text-d:hover, .fg-active-text-d.active {
+    color: #222;
+}
+.font-cond-b {
+    font-weight: 700 !important;
+}
+
+.modal-backdrop {
+    z-index: -1;
+    background-color: transparent;
+  }
+
+.modal-content {
+    z-index: 12;
+    border-color: black;
+    border-radius: 0 !important;
+    border-width: medium;
+    border-style: solid  !important;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.reviewButton {
+    
+    border-color: black;
+    border-radius: 0 !important;
+    border-width: medium;
+    border-style: solid  !important;
+    background-color: #ededec;
+    color:black;
+    text-shadow: none !important;
+}
+
+
+
+/* shop.html code for responsive card layout */
+.basic-grid {
+    display: grid;
+    gap: 1rem;
+  
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-auto-rows: 240px;
+  }
+ @media screen and (min-width: 600px) {
+    .card-tall {
+      grid-row: span 2 / auto;
+    }
+  
+    .card-wide {
+      grid-column: span 2 / auto;
+    }
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #353535;
+    font-size: x-large;
+    color: #EFD31A;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+  
+.card:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+ }
+
+
+ .shopSlider {
+
+    width: 100%;
+    
+
+
+
+
+ }
+
+
+.shopButton:hover,
+.shopButton:focus {
+  color: #000 !important;
+  border-color: #FFF;
+  background-color: #EFD31A;
+  text-shadow: none !important;
+  text-decoration: none !important;
+  border-style: none;
+box-shadow: none;
+ 
+  
+}
+div.dropdown button#dropdownMenuButton:hover,
+div.dropdown button#dropdownMenuButton:focus {
+    color: #000 !important;
+    border-color: #FFF;
+    background-color: #EFD31A;
+    text-shadow: none !important;
+    text-decoration: none !important;
+    border-style: none;
+  box-shadow: none;
+   
+}

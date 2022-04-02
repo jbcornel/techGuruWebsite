@@ -1,0 +1,458 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1107,
+      "max": [
+        3.6614503860473633,
+        14.966620445251465,
+        0.8052160143852234
+      ],
+      "min": [
+        -3.5778720378875732,
+        0.0,
+        -0.06853169947862625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 13284,
+      "componentType": 5126,
+      "count": 1107,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1107,
+      "max": [
+        1.0,
+        1.0,
+        0.9807855486869812,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.9807855486869812,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1107,
+      "max": [
+        0.9855597615242004,
+        0.9786403775215149
+      ],
+      "min": [
+        0.01190562266856432,
+        0.025549711659550667
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 4002,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 26568,
+      "componentType": 5126,
+      "count": 1107,
+      "max": [
+        3.6614503860473633,
+        14.966620445251465,
+        0.8052160143852234
+      ],
+      "min": [
+        -3.5778720378875732,
+        0.0,
+        -0.06853169947862625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 39852,
+      "componentType": 5126,
+      "count": 1107,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 17712,
+      "componentType": 5126,
+      "count": 1107,
+      "max": [
+        1.0,
+        1.0,
+        0.9807855486869812,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.9807855486869812,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 8856,
+      "componentType": 5126,
+      "count": 1107,
+      "max": [
+        0.9855597615242004,
+        0.9786403775215149
+      ],
+      "min": [
+        0.01190562266856432,
+        0.025549711659550667
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 16008,
+      "componentType": 5125,
+      "count": 4002,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "AshMesh (https://sketchfab.com/AshMesh)",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/smartphone-clean-and-damaged-5510a4dbe7854b3482c53a4b2271eb4e",
+      "title": "Smartphone (Clean and Damaged)"
+    },
+    "generator": "Sketchfab-11.62.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 32016,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17712,
+      "byteOffset": 32016,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 53136,
+      "byteOffset": 49728,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 35424,
+      "byteOffset": 102864,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 138288,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/cellphone_02_baseColor.png"
+    },
+    {
+      "uri": "textures/cellphone_02_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/cellphone_02_emissive.png"
+    },
+    {
+      "uri": "textures/cellphone_02_normal.png"
+    },
+    {
+      "uri": "textures/clean_cellphone_02_baseColor.png"
+    },
+    {
+      "uri": "textures/clean_cellphone_02_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/clean_cellphone_02_emissive.png"
+    },
+    {
+      "uri": "textures/clean_cellphone_02_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 2
+      },
+      "name": "cellphone_02",
+      "normalTexture": {
+        "index": 3
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 6
+      },
+      "name": "clean_cellphone_02",
+      "normalTexture": {
+        "index": 7
+      },
+      "occlusionTexture": {
+        "index": 5
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4
+        },
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cellphone_02_cellphone_02_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cellphone_02_clean_clean_cellphone_02_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.2591623067855835,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.7959019694669596e-16,
+        -1.2591623067855835,
+        0.0,
+        0.0,
+        1.2591623067855835,
+        2.7959019694669596e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Cellphone_02_SF.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "Cellphone_02"
+    },
+    {
+      "mesh": 0,
+      "name": "Cellphone_02_cellphone_02_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        12.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Cellphone_02_clean"
+    },
+    {
+      "mesh": 1,
+      "name": "Cellphone_02_clean_clean_cellphone_02_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    },
+    {
+      "sampler": 0,
+      "source": 7
+    }
+  ]
+}
