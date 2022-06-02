@@ -41,30 +41,7 @@ canvas{
     z-index: 10;
 }
 
-.navbar  div div .monroeLink{
-    color: #E6FF50;
-    text-align: center;
-    font-size:large;
-    border-style:solid;
-    border-color: 
-    var(--clr-neon);
-   
-    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em #E6FF50;
-    box-shadow: inset 0 0 1em 0 var(--clr-neon), 0 0 1em 0 var(--clr-neon);
-    background-color: #393939;
-    border-radius: 10px;
-    font-family: 'M PLUS Rounded 1c', sans-serif !important;
-    
-}
-.navbar  div div .monroeLink:focus,
-.navbar  div div .monroeLink:hover{
-    color: var(--clr-bg) !important;
-    border-color: var(--clr-bg);
-    background-color: var(--clr-neon) !important;
-    text-shadow: none;
-    border-style:  none !important;
-    text-decoration: none !important;
-}
+
 
 .shopButton {
     color: #E6FF50;
