@@ -491,3 +491,29 @@ label {
     
 }
 
+#yellowBear{
+    position: absolute;
+    top: 60%;
+    left:0%;
+ 
+}
+
+#yellowBear path{
+ 
+    stroke-dasharray: 380;
+    stroke-dashoffset: 380;
+   
+    animation: dash 2s ease-in forwards ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 380;
+   
+  }
+  to {
+    stroke-dashoffset: -380;
+   
+  }
+}
