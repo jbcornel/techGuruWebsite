@@ -323,8 +323,9 @@ align-items: center;
     padding: 30px;
 }
 img {
-    border: 0;
+   
     padding-bottom: 2%;
+    border-color: 5px #EFD31A;
 }
 .mgb-20, .mgb-20-all > * {
     margin-bottom: 20px;
@@ -552,4 +553,5 @@ label {
     box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) px 0.175em 0.5em;
     transform: translateY(-3px) scale(1.1);
  }
+
 
