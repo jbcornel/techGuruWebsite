@@ -38,7 +38,7 @@ canvas{
 
 .navbar div .navbar-brand{
     text-shadow: 2px 2px 5px black;
-    z-index: 10;
+    z-index: 1;
 }
 
 
@@ -68,7 +68,7 @@ align-items: center;
     height: 100px; 
     background-color: #393939;
     border-radius: 15px;
-    z-index: 10;/* height of button */
+    z-index: 1;/* height of button */
 
 
 
@@ -92,7 +92,7 @@ align-items: center;
 
 
 
-div.dropdown button#dropdownMenuButton{
+div.dropup button#dropdownMenuButton{
     
     color: #E6FF50;
     text-align: center;
@@ -149,7 +149,8 @@ button#paymentButton{
     
 }
 
-div.dropdown {
+div.dropup {
+    overflow: visible !important;
     display: inline-block;
     margin: 3%;
 }
@@ -350,17 +351,28 @@ img {
     font-weight: 700 !important;
 }
 
+
 .modal-backdrop {
     z-index: -1;
     background-color: transparent;
+    position: auto;
   }
 
 .modal-content {
     z-index: 12;
-    border-color: black;
+    border-color: #dbe7a3;
+    background-color: #dbe7a3;
+    color:#000000;
+    text-shadow: 1px 1px 4px #EFD31A;
     border-radius: 0 !important;
     border-width: medium;
     border-style: solid  !important;
+    box-shadow: 3px 3px #000000, -1em 0 .4em #EFD31A;
+}
+
+
+.modal-content a{
+text-decoration:  underline;
 }
 
 a, a:hover, a:focus, a:active {
@@ -398,30 +410,6 @@ a, a:hover, a:focus, a:active {
     }
   }
 
-  .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #353535;
-    font-size: x-large;
-    color: #EFD31A;
-    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
-    height: 100%;
-    width: 100%;
-    border-radius: 4px;
-    transition: all 500ms;
-    overflow: hidden;
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
- }
-  
-.card:hover {
-    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
-    transform: translateY(-3px) scale(1.1);
- }
 
 
  .shopSlider {
@@ -447,8 +435,8 @@ box-shadow: none;
  
   
 }
-div.dropdown button#dropdownMenuButton:hover,
-div.dropdown button#dropdownMenuButton:focus {
+div.dropup button#dropdownMenuButton:hover,
+div.dropup button#dropdownMenuButton:focus {
     color: #000 !important;
     border-color: #FFF;
     background-color: #EFD31A;
@@ -517,3 +505,51 @@ label {
    
   }
 }
+
+
+.shopContainer{
+    display: grid;
+    gap: 6rem;
+    color: #9820a3;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    
+ 
+    font-family: 'Irish Grover', cursive;
+}
+
+
+
+.card h1{
+    margin-top: 1rem;
+    color: #000000;
+}
+
+.card {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #dbe7a3;
+    font-size: x-large;
+    color: #000;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 2rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    font-family: 'Varela Round', sans-serif;
+    padding: 8%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 1px 1px 2px #EFD31A;
+    overflow: visible;
+ }
+
+  
+ .card:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+ }
+
