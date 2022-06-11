@@ -555,3 +555,9 @@ label {
  }
 
 
+ .carousel {
+     width: 70%;
+     height:20%;
+    margin: 0px auto;
+  }
+

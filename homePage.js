@@ -14,6 +14,9 @@ const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 2000)
 
 
+
+
+
 camera.position.x = 300;
 camera.position.y = 300;
 camera.position.z = 300;
@@ -101,7 +104,7 @@ loadingManager.onLoad = function() {
 const loader = new GLTFLoader(loadingManager);
 
       loader.setPath('./resources/techGuruModel/');
-      loader.load('techguruWebModel.glb', (gltf) => {
+      loader.load('techGuruWebModel.glb', (gltf) => {
        
         let sceneInput = gltf.scene;
      
