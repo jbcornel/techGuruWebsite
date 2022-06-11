@@ -104,7 +104,7 @@ loadingManager.onLoad = function() {
 const loader = new GLTFLoader(loadingManager);
 
       loader.setPath('./resources/techGuruModel/');
-      loader.load('techGuruWebModel.glb', (gltf) => {
+      loader.load('techguruWebModel.glb', (gltf) => {
        
         let sceneInput = gltf.scene;
      
